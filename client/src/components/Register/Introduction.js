@@ -71,7 +71,7 @@ const Introduction = ({ canSkip, onContinue, onSkip, resources, showTitle }) => 
               &nbsp;
               {
                 resources.user_help_link &&
-                <a href={resources.user_help_link}>
+                <a href={resources.user_help_link} target="_blank" rel="noreferrer noopener">
                   { i18n._t('MultiFactorAuthentication.HOW_MFA_WORKS', fallbacks['MultiFactorAuthentication.HOW_MFA_WORKS']) }
                 </a>
               }
